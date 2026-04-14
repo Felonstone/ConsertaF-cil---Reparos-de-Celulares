@@ -1,0 +1,85 @@
+
+Conserta Fácil - Reparo de Celulares
+
+
+História:
+História da Conserta Fácil – Reparo de Celulares
+
+O Senhor Armando é o CEO da Conserta Fácil – Reparo de Celulares, uma oficina familiar que há anos atende a comunidade com dedicação. Seu filho, Anjenor, trabalha na loja ajudando no atendimento e reparos, seguindo os passos do pai. Apesar da experiência e do carinho com os clientes, a oficina ainda depende de blocos de notas e papéis para registrar os serviços, o que gera atrasos e confusão.
+
+A ausência de um sistema funcional cria diversos problemas, tanto para a empresa quanto para os clientes. Para ilustrar, vejamos algumas personas e os desafios que enfrentam:
+
+Persona 1 – Maria, a cliente apressada
+Idade: 28 anos
+Profissão: Assistente administrativa
+Problema: Maria precisa que seu celular seja consertado rapidamente, pois depende dele para o trabalho.
+Dificuldade atual: Com o método manual, ela nunca sabe exatamente quando o reparo ficará pronto. Ela liga várias vezes, e às vezes recebe informações conflitantes, ficando frustrada e estressada.
+Persona 2 – João, o cliente leal
+Idade: 42 anos
+Profissão: Motorista de aplicativo
+Problema: João usa seu celular o dia inteiro para trabalhar.
+Dificuldade atual: Ele confia na Conserta Fácil, mas o registro manual faz com que, às vezes, o aparelho dele seja confundido com o de outro cliente, atrasando seu retorno e prejudicando sua renda.
+Persona 3 – Letícia, a cliente tecnológica
+Idade: 34 anos
+Profissão: Designer gráfica
+Problema: Letícia gosta de acompanhar cada etapa do serviço e receber notificações.
+Dificuldade atual: A ausência de um sistema impede que ela saiba se o reparo está em andamento, aguardando peças ou pronto para retirada, gerando ansiedade e falta de confiança no serviço.
+Problemas enfrentados pela loja
+Perda de tempo: Funcionários gastam horas conferindo blocos de notas e procurando informações.
+Erros de registro: Aparelhos e serviços podem ser confundidos, gerando retrabalho.
+Cliente insatisfeito: Sem comunicação eficiente, os clientes ficam frustrados e podem procurar concorrentes.
+Falta de histórico: Sem registros organizados, é difícil acompanhar consertos antigos, peças utilizadas ou recorrência de problemas.
+Dificuldade em planejar: Sem dados organizados, fica difícil saber quais serviços são mais frequentes, o que impacta compras e estoque de peças.
+
+O Senhor Armando percebeu que, para manter a reputação da Conserta Fácil e melhorar a experiência de seus clientes, era essencial investir em um sistema que organize cadastros, serviços e status de reparo. Com o apoio do filho Anjenor, eles começaram a planejar a implementação de uma solução que traria eficiência, segurança e tranquilidade tanto para a equipe quanto para os clientes.
+
+
+Exemplo de contrato:
+
+
+
+1. Objeto do Contrato
+
+Desenvolvimento de um sistema para cadastro de clientes, registro de serviços e controle de status de reparos de aparelhos celulares, visando substituir o uso de bloco de notas e melhorar o acompanhamento de reparos.
+
+2. Informações Necessárias do Contratante
+
+Para que o sistema seja funcional e adaptado à Conserta Fácil, o contratado precisa coletar:
+
+Dados dos clientes: nome, telefone, e-mail (opcional), histórico de serviços.
+Dados dos serviços/aparelhos: tipo, marca, modelo, problema relatado, data de entrada, status.
+Preferências de notificação: como o cliente deseja receber status do reparo (telefone, WhatsApp, SMS).
+Rotina da oficina: fluxo de atendimento, etapas do reparo, responsabilidades de cada funcionário.
+Relatórios desejados: quais informações são mais importantes para acompanhamento e decisões.
+
+Forma de coleta: entrevistas presenciais ou online, preenchimento de formulários simples e visitas à oficina. Sempre enfatizar que o objetivo é facilitar o trabalho, não complicá-lo.
+
+3. Obrigações do Contratante
+Fornecer informações completas e precisas sobre clientes, serviços e procedimentos da oficina.
+Disponibilizar acesso à equipe para esclarecimentos sobre o fluxo de trabalho.
+Aprovar etapas do sistema antes da entrega final.
+4. Obrigações do Contratado
+Desenvolver o sistema conforme especificações definidas em conjunto.
+Manter sigilo sobre os dados fornecidos.
+Oferecer treinamento básico para o uso do sistema.
+Disponibilizar suporte inicial para ajustes e correções.
+5. Prazos e Entregas
+Etapa 1: levantamento de informações → [Data]
+Etapa 2: desenvolvimento do sistema → [Data]
+Etapa 3: testes e ajustes → [Data]
+Etapa 4: entrega final e treinamento → [Data]
+6. Formas de Coleta de Informação sem causar desistência
+Questionário simples e direto: Evita que Armando se sinta sobrecarregado.
+Entrevista guiada: Perguntar sobre o fluxo da oficina como se estivesse “tomando nota de rotina” e não apenas coletando dados.
+Exemplos práticos: Mostrar telas simuladas ou protótipos para que ele visualize como o sistema vai ajudá-lo.
+Dividir em etapas curtas: Coletar informações aos poucos, não tudo de uma vez.
+Garantir confidencialidade: Garantir que dados dos clientes serão usados apenas para o sistema.
+7. Valor e Forma de Pagamento
+Valor total do projeto: R$ [valor]
+Forma de pagamento: [ex.: 50% na assinatura do contrato, 50% na entrega final]
+8. Rescisão
+O contrato pode ser rescindido por qualquer das partes com aviso prévio de 7 dias, respeitando pagamentos proporcionais ao trabalho já realizado.
+9. Assinaturas
+Contratante: __________________________
+Contratado: __________________________
+Data: //_____

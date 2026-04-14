@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conserto e Reparo de Aparelhos Móveis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">ReparoMóvel</div>
+        <nav>
+            <ul>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="topInformation">
+        <h1>Conserto e Reparo de Aparelhos Móveis</h1>
+        <p>Rápido, confiável e com garantia de qualidade!</p>
+        <a href="#contato" class="btn">Solicitar Orçamento</a>
+    </section>
+
+    <section id="servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="servicos-container">
+            <div class="servico">
+                <h3>Troca de Tela</h3>
+                <p>Substituição de telas quebradas em smartphones e tablets.</p>
+            </div>
+            <div class="servico">
+                <h3>Bateria</h3>
+                <p>Troca e manutenção de baterias que não carregam ou duram pouco.</p>
+            </div>
+            <div class="servico">
+                <h3>Manutenção Geral</h3>
+                <p>Reparo de botões, alto-falantes, câmeras e outros componentes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contatoForm">
+            <input type="text" id="nome" placeholder="Seu Nome" required>
+            <input type="email" id="email" placeholder="Seu Email" required>
+            <textarea id="mensagem" placeholder="Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="resposta"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 ReparoMóvel. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
