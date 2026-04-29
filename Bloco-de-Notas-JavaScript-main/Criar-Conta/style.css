@@ -1,0 +1,120 @@
+
+
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fundo */
+body {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #3a3a3a, #1f1f1f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+    
+}
+
+/* Formulário */
+#formCadastro {
+    background: #2b2b2b;
+    padding: 25px;
+    border-radius: 12px;
+    width: 320px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    overflow: auto;
+}
+
+/* Labels */
+#formCadastro label {
+    color: #ccc;
+    font-size: 14px;
+}
+
+/* Inputs */
+#formCadastro input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0 12px 0;
+    border: none;
+    border-radius: 8px;
+    background: #444;
+    color: white;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Focus nos inputs */
+#formCadastro input[type="text"]:focus {
+    border: 1px solid #ff7a00;
+    background: #555;
+}
+
+/* CHECKBOXES (validação) */
+#formCadastro input[type="checkbox"] {
+    margin-right: 6px;
+    accent-color: #ff7a00; /* deixa laranja */
+}
+
+/* Labels de validação */
+#formCadastro input[type="checkbox"] + label {
+    font-size: 13px;
+    color: #aaa;
+}
+
+/* Agrupar validações */
+#formCadastro input[type="checkbox"] {
+    margin-top: 5px;
+}
+
+/* BOTÕES */
+#formCadastro button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Botão principal */
+#formCadastro button:first-of-type {
+    background: #ff7a00;
+    color: white;
+}
+
+#formCadastro button:first-of-type:hover {
+    background: #e66b00;
+}
+
+/* Botão voltar */
+#formCadastro button {
+    background: #666;
+    color: white;
+}
+
+#formCadastro a button:hover {
+    background: #555;
+}
+
+/* Mensagens */
+#good-message {
+    display: block;
+    margin-top: 10px;
+    color: #4caf50;
+    font-size: 14px;
+}
+
+#bad-message {
+    display: block;
+    margin-top: 5px;
+    color: #ff4d4d;
+    font-size: 14px;
+}

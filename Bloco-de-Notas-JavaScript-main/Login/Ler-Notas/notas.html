@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="notas.css">
+    <title>Notas</title>
+</head>
+<body>
+
+    <button onclick="pedirNovaNota()">
+        Adicionar Nota:
+        
+    </button>
+    <button onclick="apagarNota()">
+        Apagar Nota por ID:
+        
+    </button>
+    <button onclick="notaApagara()">
+        Editar Nota por ID:
+        
+    </button>
+
+    <div>
+    <span id="good-message"></span>
+    <span id="bad-message"></span>
+    </div>
+
+    <div id="containerNotas"></div>
+
+    <template id="nota-template">
+        <div class="nota">
+            <h2 class="descricao"></h2>
+        </div>
+    </template>
+
+
+
+
+
+    <script src="notas.js"></script>
+</body>
+</html>

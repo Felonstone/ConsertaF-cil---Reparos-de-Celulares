@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bem Vindo</title>
+    </head>
+    <body>
+
+        
+
+        <form id="formCadastro">
+            <label for="">Digite seu nome:</label>
+            <br>
+            <input id = "nome" type="text" placeholder = "Digite seu Nome">
+            <br>
+            <label for="">Digite seu E-mail</label>
+            <br>
+            <input id = "email" type="text" placeholder = "Digite seu E-mail">
+            <br>
+            <br>
+            <label for="">Digite uma Senha:</label>
+            <br>
+            <input id = "senha" type="text" placeholder = "Digite sua Senha">
+            <br>
+            <label for="">Confirme a sua Senha:</label>
+            <br>
+            <input id = "confirmarSenha" type="text" placeholder = "Confirme sua Senha">
+            <br>
+            <br>
+            
+            
+            <input disabled type="checkbox" id="checkboxSenhaIgual">
+            <label for="checkboxSenhaIgual" id="senhaResultIgual">Senha Diferente</label>
+            <br>
+            <input disabled type="checkbox" id="checkboxSenha">
+            <label for="checkboxSenha" id="senhaResult">Senha curta</label>
+            <br>
+            <input disabled type="checkbox" id="checkboxSenhaLetraPequena">
+            <label for="checkboxSenhaLetraPequena" id="senhaResultPequena">Senha sem Letra Pequena</label>
+            <br>
+            <input disabled type="checkbox" id="checkboxSenhaLetraGrande">
+            <label for="checkboxSenhaLetraGrande" id="senhaResultGrande">Senha sem Letra Grande</label>
+            <br>
+            <input disabled type="checkbox" id="checkboxSenhaComNumeros">
+            <label for="checkboxSenhaComNumeros" id="senhaResultNumeros">Senha sem Numeros</label>
+            <br>
+            <input disabled type="checkbox" id="checkboxSenhaSimboloEspecial">
+            <label for="checkboxSenhaSimboloEspecial" id="senhaResultEspecial">Senha Caractere Especial</label>
+            <br>
+            <button onclick="criarUsuario()">
+                Logar!
+            </button>
+
+            <button onclick="window.location.href='../../index.html'">
+                Voltar
+            </button>
+            <br>
+            <span id="good-message"></span>
+            <span id="bad-message"></span>
+        </form>
+        
+        
+    
+        <script src="script.js"></script>
+
+    
+    </body>
+    
+</html>

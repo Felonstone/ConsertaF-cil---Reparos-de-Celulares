@@ -1,0 +1,97 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #3a3a3a, #1f1f1f);
+    color: white;
+    padding: 20px;
+}
+
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+button:first-of-type {
+    background: #ff7a00;
+    color: white;
+}
+
+button:first-of-type:hover {
+    background: #e66b00;
+}
+
+button:nth-of-type(2) {
+    background: #555;
+    color: white;
+}
+
+button:nth-of-type(2):hover {
+    background: #666;
+}
+
+button:nth-of-type(3) {
+    background: #555;
+    color: white;
+}
+
+button:nth-of-type(3):hover {
+    background: #666;
+}
+
+/* Mensagens */
+#good-message {
+    display: block;
+    margin-top: 10px;
+    color: #4caf50;
+}
+
+#bad-message {
+    display: block;
+    margin-top: 5px;
+    color: #ff4d4d;
+}
+
+/* CONTAINER DAS NOTAS */
+#containerNotas {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+/* CARD DE NOTA */
+.nota {
+    background: #2b2b2b;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    transition: 0.3s;
+    border-left: 5px solid #ff7a00;
+}
+
+/* Hover no card */
+.nota:hover {
+    transform: scale(1.03);
+    background: #333;
+}
+
+/* Texto da nota */
+.nota h2 {
+    font-size: 16px;
+    color: #ddd;
+    word-wrap: break-word;
+}

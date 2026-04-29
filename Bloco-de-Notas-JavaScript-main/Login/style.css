@@ -1,0 +1,129 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fundo */
+body {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #3a3a3a, #1f1f1f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Formulário */
+#formLogin {
+    background: #2b2b2b;
+    padding: 30px;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    text-align: center;
+}
+
+/* Título */
+#formLogin h2 {
+    color: #ff7a00;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+#formLogin label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    color: #ccc;
+    font-size: 14px;
+}
+
+/* Inputs */
+#formLogin input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    background: #444;
+    color: white;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Focus */
+#formLogin input:focus {
+    border: 1px solid #ff7a00;
+    background: #555;
+}
+
+/* Botões */
+.btn-confirmar {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: #ff7a00;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-confirmar:hover {
+    background: #e66b00;
+}
+
+/* Botão voltar */
+.btn-voltar {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    background: #555;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-voltar:hover {
+    background: #666;
+}
+
+/* Mensagens */
+#good-message {
+    display: block;
+    margin-top: 10px;
+    color: #4caf50;
+}
+
+#bad-message {
+    display: block;
+    margin-top: 5px;
+    color: #ff4d4d;
+}
+
+
+
+
+
+/* Estilo do container */
+.loading {
+    border: 8px solid #f3f3f3; /* cor de fundo do círculo */
+    border-top: 8px solid #e66b00; /* cor do topo do círculo */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite; /* animação de rotação */
+  }
+  
+  /* Animação de rotação */
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
