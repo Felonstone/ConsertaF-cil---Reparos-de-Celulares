@@ -1,4 +1,3 @@
-
 Conserta Fácil - Reparo de Celulares
 
 
@@ -14,16 +13,19 @@ Idade: 28 anos
 Profissão: Assistente administrativa
 Problema: Maria precisa que seu celular seja consertado rapidamente, pois depende dele para o trabalho.
 Dificuldade atual: Com o método manual, ela nunca sabe exatamente quando o reparo ficará pronto. Ela liga várias vezes, e às vezes recebe informações conflitantes, ficando frustrada e estressada.
+
 Persona 2 – João, o cliente leal
 Idade: 42 anos
 Profissão: Motorista de aplicativo
 Problema: João usa seu celular o dia inteiro para trabalhar.
 Dificuldade atual: Ele confia na Conserta Fácil, mas o registro manual faz com que, às vezes, o aparelho dele seja confundido com o de outro cliente, atrasando seu retorno e prejudicando sua renda.
+
 Persona 3 – Letícia, a cliente tecnológica
 Idade: 34 anos
 Profissão: Designer gráfica
 Problema: Letícia gosta de acompanhar cada etapa do serviço e receber notificações.
 Dificuldade atual: A ausência de um sistema impede que ela saiba se o reparo está em andamento, aguardando peças ou pronto para retirada, gerando ansiedade e falta de confiança no serviço.
+
 Problemas enfrentados pela loja
 Perda de tempo: Funcionários gastam horas conferindo blocos de notas e procurando informações.
 Erros de registro: Aparelhos e serviços podem ser confundidos, gerando retrabalho.
